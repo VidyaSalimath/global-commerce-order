@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/manifests/">
+    <File Path="manifests/deployment.yml" />
+    <File Path="manifests/service.yml" />
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".dockerignore" />
+    <File Path="azure-pipelines.yml" />
+    <File Path="Dockerfile" />
+  </Folder>
+  <Folder Name="/Src/">
+    <Project Path="GlobalCommerce.Order.Api/GlobalCommerce.Order.Api.csproj" />
+    <Project Path="GlobalCommerce.Order.Application/GlobalCommerce.Order.Application.csproj" />
+    <Project Path="GlobalCommerce.Order.Domain/GlobalCommerce.Order.Domain.csproj" />
+    <Project Path="GlobalCommerce.Order.Infrastructure/GlobalCommerce.Order.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Test/">
+    <Project Path="GlobalCommerce.Order.ComponentTests/GlobalCommerce.Order.ComponentTests.csproj" />
+    <Project Path="GlobalCommerce.Order.UnitTests/GlobalCommerce.Order.UnitTests.csproj" />
+  </Folder>
+</Solution>

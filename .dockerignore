@@ -1,0 +1,22 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+**/bin/
+**/obj/
+
+# Git
+.git/
+.gitignore
+
+# Test results
+**/TestResults/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Documentation / local files
+*.md
