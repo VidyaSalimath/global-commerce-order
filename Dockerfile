@@ -5,12 +5,12 @@ WORKDIR /src
 
 COPY . .
 
-RUN dotnet reOrder "GlobalCommerce.Order.Api/GlobalCommerce.Order.Api.csproj"
+RUN dotnet restore "GlobalCommerce.Order.Api/GlobalCommerce.Order.Api.csproj"
 
 RUN dotnet publish "GlobalCommerce.Order.Api/GlobalCommerce.Order.Api.csproj" \
     -c Release \
     -o /app/publish \
-    --no-reOrder
+    --no-restore
 
 
 # ---------- Runtime stage ----------
